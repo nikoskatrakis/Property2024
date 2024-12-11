@@ -1,0 +1,9 @@
+urllib3==1.26.15
+dash
+dash-leaflet
+pandas
+numpy
+dash-extensions
+matplotlib
+pdbpp
+gdown
