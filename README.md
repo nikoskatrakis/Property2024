@@ -8,5 +8,7 @@ The code was written with assistance from Microsoft CoPilot and ChatGPT, however
 The remainder was based on judgement and internet browsing.
 The main package used to visualise the data was dash_leaflet. Notably, the centering facility is not working. 
 
-Comments/suggestions welcome. Code produced by Nikos Katrakis on 11/12/2024. 
+Comments/suggestions welcome. Code produced on 11/12/2024.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nikoskatrakis/Property2024/HEAD)
 
