@@ -38,21 +38,21 @@ def calc_inflation_averages(df, start_year, end_year):
     return df
 
 #  Load data
-merged_file = 'property_and_coords.csv' 
-area_file = 'area_inflation.csv' 
+merged_file = 'property_small_detailed.csv' 
+area_file = 'property_small_area.csv' 
 
-merged_df_datalink = "https://drive.google.com/file/d/1iuJjd6XYl97GL0niY4VybWss998BZpS7/view?usp=sharing"
-area_data_datalink = "https://drive.google.com/file/d/1mDNmC-XtO8slKbT8fEIyqcj2gI53-Mj4/view?usp=sharing"
+#  merged_df_datalink = "https://drive.google.com/file/d/1iuJjd6XYl97GL0niY4VybWss998BZpS7/view?usp=sharing"
+#  area_data_datalink = "https://drive.google.com/file/d/1mDNmC-XtO8slKbT8fEIyqcj2gI53-Mj4/view?usp=sharing"
 
 # Download files from Google Drive 
-try: 
-    gdown.download(merged_df_datalink, merged_file, quiet=False) 
-except Exception as e: 
-    print(f"Failed to download {merged_file}: {e}") 
-try: 
-    gdown.download(area_data_datalink, area_file, quiet=False) 
-except Exception as e: 
-    print(f"Failed to download {area_file}: {e}")
+# try: 
+#     gdown.download(merged_df_datalink, merged_file, quiet=False) 
+# except Exception as e: 
+#     print(f"Failed to download {merged_file}: {e}") 
+# try: 
+#     gdown.download(area_data_datalink, area_file, quiet=False) 
+# except Exception as e: 
+#     print(f"Failed to download {area_file}: {e}")
 
 area_data = pd.read_csv(area_file)
 area_data_period = calc_inflation_averages(area_data, 1995, 2024)
