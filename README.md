@@ -10,5 +10,4 @@ The main package used to visualise the data was dash_leaflet. Notably, the cente
 
 Comments/suggestions welcome. Code produced on 11/12/2024.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nikoskatrakis/Property2024/HEAD)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nikoskatrakis/Property2024/branch1)
