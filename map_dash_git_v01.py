@@ -38,8 +38,8 @@ def calc_inflation_averages(df, start_year, end_year):
     return df
 
 #  Load data
-merged_file = 'property_small_detailed.csv' 
-area_file = 'property_small_area.csv' 
+merged_file = 'properties_small_detailed.csv' 
+area_file = 'properties_small_area.csv' 
 
 #  merged_df_datalink = "https://drive.google.com/file/d/1iuJjd6XYl97GL0niY4VybWss998BZpS7/view?usp=sharing"
 #  area_data_datalink = "https://drive.google.com/file/d/1mDNmC-XtO8slKbT8fEIyqcj2gI53-Mj4/view?usp=sharing"
