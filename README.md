@@ -31,6 +31,8 @@ https://property2024-1.onrender.com
 
 The slider on the top restricts the transactions shown to a smaller period.
 
+The colour of the markers indicates whether the inflation was high (red) or low (blue) or somewhere inbetween for the relevant postcode area and period of time.
+
 Note, this will be very slow - when you press on a postcode-area marker, you may need to wait for a minute or two for the more detailed postcode-level (smaller markers) to appear. The longer the dataperiod (see strip at the top of the map), the longer it takes for the map to update.
 
 If one of the smaller markers corresponds to a single record, hovering over it will show the relevant info. If the marker relates to many records, information for each record will appear on a table upon clicking on the marker.
