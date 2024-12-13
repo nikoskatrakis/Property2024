@@ -42,3 +42,7 @@ The app is not optimised for a mobile phone screen.
 If you want to run the code locally, on your own machine, I'm happy to supply detailed instructions, if you struggle to make the code work. In the very last line, you should set debug=True, so you can see error messages if you are struggling. 
 
 Comments/suggestions welcome. Code produced on 12/12/2024.
+
+Data Source: https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads (as on end September 2024)
+Disclaimer: Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.
+
