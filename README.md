@@ -26,7 +26,7 @@ While I enjoyed learning about dash, dash-leaflet and uploading an app to a publ
 
 You can see the results in action in the following address: 
 
-https://property2024-1.onrender.com
+https://property2024.onrender.com
 
 
 The slider on the top restricts the transactions shown to a smaller period.
